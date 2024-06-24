@@ -13,7 +13,7 @@ int main(){
         cout<<"Ingrese un numero a operar: ";cin>>n;
         sum =suma(n);
         cout<<"La sumatoria es de: "<<sum<<endl;
-        //implementacion de mas operaciones
+        //implementacion de mas operaciones para el algoritmo
         cout<<"Desea probar con mas numeros? s/n: ";cin>>cn;
     }while(cn=='s');
     return 0;
