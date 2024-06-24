@@ -4,12 +4,12 @@
 using namespace std;
 int main(){
     double a, b, r;
-    char op;
-    cout<<"ingrese un numero: ";cin>>a;
+    char op;//inicio del programa
+    cout<<"ingrese un numero: ";cin>>a;//solicitudes para digitar los valores del programa
     cout<<"ingrese un operador: ";cin>>op;
     cout<<"ingrese otro numero: ";cin>>b;
 
-    switch(op){
+    switch(op){//ejecución del programa con los datos introducidos
         case '+': r = a + b ; cout<<"resultado: "<<r<<endl; break;
         case '-': r = a - b ; cout<<"resultado: "<<r<<endl; break;
         case '*': r = a * b ; cout<<"resultado: "<<r<<endl; break;
@@ -18,4 +18,4 @@ int main(){
     }
 
     return 0;
-}
+}//fin del programa
